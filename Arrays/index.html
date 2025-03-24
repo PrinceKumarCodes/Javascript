@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <script>
+        //array value print with index number 
+        var fruits = ["Apple", "Orange", "Pear", "Grape", "Tangerine", "Mango"];
+        document.getElementById("demo").innerHTML = "fruits[0] :" + fruits[0] + "<br>" + "fruits[1] :" + fruits[1] + "<br>" + "fruits[2] :" + fruits[2];
+
+        //Length of fruits vairiable 
+        document.getElementById("demo1").innerHTML = "length of fruits variable :" + fruits.length;
+
+        //toString function make a string of a array  // attention here that you will have to after writing toString of ()
+        document.getElementById("demo2").innerHTML = fruits.toString();
+
+        //we can seperate array values with our choice characture like , / \ * & # 
+        document.getElementById("demo3").innerHTML = fruits.join(" * ");
+
+
+
+
+    </script>
+
+</body>
+
+</html>

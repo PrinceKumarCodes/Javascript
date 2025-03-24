@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- this si javascript code  -->
+    <script type="text/javascript">
+        function eyears(form) {
+            form.dogage.value = form.myage.value * 7;
+        }
+    </script>
+</head>
+
+<body>
+    <b>Find out your age in dog years!</b>
+    <form method="post">
+        <table>
+            <tr>
+                <td>Enter your age:</td>
+                <td><input type="text" name="myage" size="15"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="Calculate" name="Calculate" size="15" onclick="eyears(this.form)">
+                </td>
+            </tr>
+            <tr>
+                <td>your age in dog eyear is : </td>
+                <td><input type="text" name="dogage" size="15"></td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>

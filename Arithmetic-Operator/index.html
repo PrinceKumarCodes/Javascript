@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Javascript</title>
+</head>
+
+<body>
+    <!-- Arithmetic Operators
+    + Addition
+    - Subtraction
+    * Multiplication
+    / Division
+    % Modulus
+    + + Incrernent
+    - Decrement
+    -->
+
+
+    <p id="add"></p>
+    <p id="sub"></p>
+    <p id="multi"></p>
+    <p id="divi"></p>
+    <p id="inc"></p>
+    <p id="dec"></p>
+    <p id="order-precedence"></p>
+
+    <script>
+        var first = 10;
+        var second = 5;
+
+        var addition = first + second;
+        document.getElementById("add").innerHTML = "Addition of two number :" + addition;
+
+        var subtraction = first - second;
+        document.getElementById("sub").innerHTML = "Subtraction of two number :" + subtraction;
+
+        var multiplication = first * second;
+        document.getElementById("multi").innerHTML = "Multiplication of two number :" + multiplication;
+
+        var division = first / second;
+        document.getElementById("divi").innerHTML = "Division of two number :" + division;
+
+
+        var x = 10;
+        x++;
+        var z = x;
+        document.getElementById("inc").innerHTML = "increment value(++) " + z;
+
+
+        var y = 15;
+        y--;
+        var m = y;
+        document.getElementById("dec").innerHTML = "decrement value(--) " + m;
+
+
+        // Order Precedence:-
+        // Brackets, Exponents, Division,
+        // Multiplication, Addition, Subtraction 
+        document.getElementById("order-precedence").innerHTML = "Order Precedence ((4 + 3) * 10 / 2 ):- " + ((4 + 3) * 10 / 2);
+
+
+    </script>
+
+
+</body>
+
+</html>
